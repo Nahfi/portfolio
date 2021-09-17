@@ -1,0 +1,1067 @@
+/* ================= common css start  ================  */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,800;0,900;1,600&display=swap');
+
+
+* {
+    padding: 0;
+    outline: 0;
+    margin: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+
+}
+
+img {
+    vertical-align: middle;
+}
+
+.clr {
+    clear: both;
+}
+
+.container {
+    max-width: 1120px;
+    margin: 0 auto;
+}
+
+
+
+
+/* ================= common css end  ================  */
+
+
+/*==================== header menu css start  ================ */
+.alex {
+    height: 70px;
+    background: #fff;
+
+
+
+}
+
+.alex::after {
+    position: absolute;
+    content: '';
+    background: #ffc327;
+
+    width: 279px;
+    height: 70px;
+    left: 0;
+    top: 0;
+    z-index: 99 !important;
+
+}
+
+.row1 {
+    display: flex;
+    flex-wrap: wrap;
+    text-transform: uppercase;
+}
+
+.cl1 {
+    flex-basis: 30%;
+    z-index: 999 !important;
+
+}
+
+.cl2 {
+    flex-basis: 70%;
+}
+
+.cl2 ul {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.cl1 h2 {
+    z-index: 999 !important;
+    line-height: 70px;
+    font-size: 28px;
+    font-weight: 800;
+    font-family: 'Playfair Display', serif;
+    color: #fff;
+
+
+
+
+}
+
+.cl2 ul li a {
+    line-height: 70px;
+    font-size: 15px;
+    padding: 0 15px;
+    font-weight: normal;
+    font-family: 'Open Sans', sans-serif;
+    color: #000;
+    transition: all linear .5s;
+    -moz-transition: all linear .5s;
+
+    -webkit-transition: all linear .5s;
+    -o-transition: all linear .5s;
+    -ms-transition: all linear .5s;
+    position: relative;
+
+
+
+
+
+
+
+
+
+
+}
+
+.cl2 ul li a:hover {
+    color: #fff;
+    background: #ffc327;
+}
+
+.cl2 ul li:hover a::after {
+    height: 50%;
+
+}
+
+.cl2 ul li a::after {
+    position: absolute;
+    content: '';
+    bottom: 5px;
+    left: 32px;
+    width: 3px;
+    height: 0%;
+    background: #44020d;
+    transform: rotate(90deg);
+
+
+    transition: all linear .5s;
+    -moz-transition: all linear .5s;
+
+    -webkit-transition: all linear .5s;
+    -o-transition: all linear .5s;
+    -ms-transition: all linear .5s;
+}
+
+
+
+
+/*==================== header menu css end  ==================== */
+
+/*==================== banner  css start  ==================== */
+
+
+
+#ban {
+    background-image: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 245px 0;
+}
+
+
+
+.banner {
+
+    flex-basis: 25%;
+    font-size: 50px;
+    font-weight: 900;
+    font-family: 'Playfair Display', serif;
+    color: hsla(0, 0%, 0%, 0.774);
+
+
+
+
+
+}
+
+
+.jst {}
+
+.banner2 span {
+    margin-top: 3px;
+    display: block;
+}
+
+.banner2 p {
+    font-size: 15px;
+
+    margin-top: 9px;
+    margin-bottom: 9px;
+    color: #666;
+
+    font-weight: normal;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.but {
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+.but a {
+    text-align: center;
+    padding: 17px 20px;
+    background: #ffc327;
+    color: #fff;
+
+    font-size: 15px;
+
+
+    font-weight: normal;
+    font-family: 'Open Sans', sans-serif;
+
+    transition: all linear .5s;
+    -moz-transition: all linear .5s;
+
+    -webkit-transition: all linear .5s;
+    -o-transition: all linear .5s;
+    -ms-transition: all linear .5s;
+
+}
+
+.but a:hover {
+    background: rgba(0, 0, 0, 0.726);
+
+}
+
+/*==================== banner  css end  ==================== */
+
+
+
+/*==================== about  css start  ==================== */
+
+#about {
+    padding: 125px 0;
+}
+
+.r1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ce1 {
+    width: 45.5%;
+
+}
+
+.ce2 {
+    margin-top: 156px;
+    width: 52%;
+    margin-left: 28px;
+}
+
+.ce1 img {
+    width: 100%;
+
+}
+
+.ab1 h4 {
+    color: #333;
+
+    font-size: 32px;
+
+    font-weight: 600;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 7px;
+
+
+}
+
+.ab2 h4 {
+    color: #333;
+
+    font-size: 20px;
+
+    font-weight: 600;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 10px;
+
+
+}
+
+.ab2 a {
+    text-transform: uppercase;
+
+    text-align: center;
+    padding: 17px 25px;
+    background: #ffc327;
+    color: #fff;
+
+    font-size: 15px;
+
+
+    font-weight: normal;
+    font-family: 'Open Sans', sans-serif;
+
+    transition: all linear .5s;
+    -moz-transition: all linear .5s;
+
+    -webkit-transition: all linear .5s;
+    -o-transition: all linear .5s;
+    -ms-transition: all linear .5s;
+
+}
+
+.ab2 a:hover {
+    background: rgba(0, 0, 0, 0.726);
+
+}
+
+.ab2 p {
+
+    color: #666;
+
+    font-weight: normal;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+
+}
+
+.ab2 span {
+    margin-top: 10px;
+    display: block;
+    margin-bottom: 19px;
+}
+
+.prv {
+    position: absolute;
+    left: -30px;
+    top: 75px;
+    font-size: 18px;
+    color: #fff;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 15px;
+    background: #ffc327;
+    cursor: pointer;
+}
+
+.nxt {
+    position: absolute;
+    right: -22px;
+    top: 73px;
+    font-size: 18px;
+    color: #fff;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 15px;
+    background: #ffc327;
+    cursor: pointer;
+}
+
+/*==================== about  css end  ==================== */
+
+/*==================== skill  css start  ==================== */
+#skill {
+    padding: 125px 0px;
+    background: #f6f6f6;
+}
+
+.x1 {
+    text-align: center;
+}
+
+.x1 span {
+    display: block;
+}
+
+.x1 h4 {
+    color: #333;
+
+    font-size: 32px;
+
+    font-weight: 600;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 10px;
+
+
+}
+
+.x1 p {
+    color: #666;
+
+    font-weight: normal;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+
+
+}
+
+#skill .cl1 {
+    display: flex;
+    flex-basis: 31.6%;
+    margin-right: 28px;
+
+    transition: all linear .5s;
+    -moz-transition: all linear .5s;
+
+    -webkit-transition: all linear .5s;
+    -o-transition: all linear .5s;
+    -ms-transition: all linear .5s;
+}
+
+#skill .cl1:hover .counter {
+    transform: scale(1.3);
+
+}
+
+#skill .cl1:hover .counter {
+    background: rgba(0, 0, 0, 0.726);
+
+
+}
+
+#skill .cl1:nth-child(3) {
+    margin-right: 0px !important;
+}
+
+.x2 {
+    margin-top: 28px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.counter {
+    background-color: #ffc327;
+    width: 95px;
+    height: 75px;
+    text-align: center;
+    line-height: 70px;
+
+    transition: all linear .5s;
+    -moz-transition: all linear .5s;
+
+    -webkit-transition: all linear .5s;
+    -o-transition: all linear .5s;
+    -ms-transition: all linear .5s;
+}
+
+.counter {
+    font-family: playfair display, sans-serif;
+    font-size: 30px;
+    color: #fff;
+    font-weight: 900;
+    line-height: 70px;
+    margin-right: 16px;
+    padding: 2px 14px;
+
+
+}
+
+.counter:hover {
+    transform: scale(1.3);
+    background: rgba(0, 0, 0, 0.726);
+
+}
+
+#skill .cl1 {
+    position: relative;
+}
+
+.per {
+    font-family: playfair display, sans-serif;
+    font-size: 26px;
+    color: #fff;
+    font-weight: 900;
+    position: absolute;
+    top: 20px;
+    right: 282px;
+
+    transition: all linear .5s;
+    -moz-transition: all linear .5s;
+
+    -webkit-transition: all linear .5s;
+    -o-transition: all linear .5s;
+    -ms-transition: all linear .5s;
+}
+
+.txt h4 {
+    color: #333;
+
+    font-size: 24px;
+
+    font-weight: 600;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 8px;
+
+
+}
+
+.txt p {
+    color: #666;
+
+    font-weight: normal;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+
+.x3 {
+    margin-top: 15px;
+    display: flex;
+}
+
+/*==================== skill  css end  ==================== */
+
+/*==================== my project  css start  ==================== */
+#project {
+    padding: 125px 0;
+
+}
+
+.ui {
+
+    display: flex;
+    flex-wrap: wrap;
+    transition: all linear .5s;
+    -moz-transition: all linear .5s;
+
+    -webkit-transition: all linear .5s;
+    -o-transition: all linear .5s;
+    -ms-transition: all linear .5s;
+}
+
+.ui_2 {
+
+    display: flex;
+    flex-wrap: wrap;
+    transition: all linear .5s;
+    -moz-transition: all linear .5s;
+
+    -webkit-transition: all linear .5s;
+    -o-transition: all linear .5s;
+    -ms-transition: all linear .5s;
+}
+
+.pro {
+
+    padding: 61px 30px;
+    flex-basis: 44%;
+    height: 100%;
+    background-color: #ffc327;
+
+
+}
+
+.pro_2 {
+
+    padding: 60.9px 30px;
+    flex-basis: 44.8%;
+    height: 100%;
+    background-color: #ffc327;
+
+
+}
+
+.proi {
+    flex-basis: 50%;
+    height: 360.5px;
+    overflow: hidden;
+}
+
+.proi_2 {
+    flex-basis: 49.29%;
+    height: 460px;
+    overflow: hidden;
+}
+
+.padx {
+    padding-bottom: 20px;
+}
+
+.pai {
+    padding-bottom: 40px;
+}
+
+.proi_2 a img {
+    width: 100%;
+}
+
+.pax {
+    padding-bottom: 79px;
+}
+
+.proi a img {
+    width: 100%;
+}
+
+.mi .x1 {
+    margin-bottom: 28px;
+}
+
+.sli h3 {
+    color: #333;
+
+    font-size: 24px;
+
+    font-weight: 600;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 8px;
+
+
+}
+
+.sli h4 {
+    color: #333;
+
+    font-size: 19px;
+
+    font-weight: 600;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 8px;
+
+
+
+}
+
+.sli span {
+    margin-top: 5px;
+    display: block;
+    color: #333;
+
+}
+
+.sli p {
+    color: #fff;
+
+    font-weight: normal;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+
+}
+
+.ui:hover span {
+    transform: scale(1.1);
+
+}
+
+.ui_2:hover span {
+    transform: scale(1.1);
+
+}
+
+.ui:hover .proi img {
+    transform: scale(1.04);
+
+}
+
+.ui_2:hover .proi_2 img {
+    transform: scale(1.04);
+
+}
+
+.proi {
+    position: relative;
+}
+
+.proi::after {
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.548);
+
+}
+
+/*==================== my project  css end  ==================== */
+
+/*====================  free  css start  ==================== */
+#free {
+    padding: 125px 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.to {
+    justify-content: center;
+    text-align: center;
+}
+
+.to .h2 {
+
+
+    color: #333;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 8px;
+
+}
+
+.to .h5 {
+    font-size: 18px;
+    margin-bottom: 3px;
+    color: #333;
+
+
+
+    font-weight: 600;
+    font-family: 'Playfair Display', serif;
+
+
+}
+
+.to .p {
+    font-size: 16px;
+    color: #666;
+    font-weight: 600;
+    font-family: 'Playfair Display', serif;
+
+
+}
+
+/*====================  free  css end  ==================== */
+
+
+
+
+/*====================  contact  css start  ==================== */
+
+#cont {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 125px 0;
+    background-attachment: fixed;
+
+
+}
+
+.rp1 h4 {
+    font-size: 29px;
+    margin-bottom: 4px;
+    color: #fff;
+
+    text-align: center;
+
+    font-weight: 600;
+    font-family: 'Playfair Display', serif;
+
+
+}
+
+.rp1 span {
+    display: block;
+}
+
+.rp1 p {
+    font-size: 18px;
+    margin-bottom: 4px;
+    color: #f6f6f6;
+
+    text-align: center;
+
+    font-weight: 600;
+    font-family: 'Playfair Display', serif;
+
+
+
+}
+
+.input1 {
+    justify-content: center;
+    text-align: center;
+}
+
+.input1 input {
+    margin-right: 20px;
+    margin-top: 25px;
+    width: 331px;
+    background-color: #fff;
+    color: #130101;
+    height: 50px;
+    border-radius: 3px;
+    border: none;
+    font-size: 18px;
+
+    font-weight: 600;
+    font-family: 'Playfair Display', serif;
+    padding-left: 10px;
+
+}
+
+.input2 {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.input2 textarea {
+    margin-right: 17px;
+    width: 696px;
+    background-color: #fff;
+    color: #130101;
+    height: 102px;
+    border-radius: 6px;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Playfair Display', serif;
+    padding-left: 10px;
+}
+
+.rp3 {
+    justify-content: center;
+    text-align: center;
+
+}
+
+.rp3 a:hover {
+    background: rgba(0, 0, 0, 0.726);
+}
+
+.rp3 a {
+    text-align: center;
+    margin-top: 20px;
+
+    text-transform: uppercase;
+    text-align: center;
+    padding: 17px 25px;
+    background: #ffc327;
+    color: #fff;
+    font-size: 15px;
+    font-weight: normal;
+    font-family: 'Open Sans', sans-serif;
+    transition: all linear .5s;
+    -moz-transition: all linear .5s;
+    -webkit-transition: all linear .5s;
+    -o-transition: all linear .5s;
+    -ms-transition: all linear .5s;
+    border-radius: 20px;
+
+}
+
+/*====================  contact  css end  ==================== */
+
+/*====================  footer  css start  ==================== */
+
+#foot {
+    height: 70px;
+    background: #fff;
+    position: relative;
+
+}
+
+#foot::after {
+    position: absolute;
+    content: '';
+    background: #ffc327;
+    width: 759px;
+    height: 70px;
+    left: 0;
+    top: 0;
+    z-index: 1 !important;
+}
+
+.footx {
+    display: flex;
+    height: 100%;
+}
+
+.coli1 {
+
+    z-index: 999 !important;
+
+    flex-basis: 50%;
+    height: 100%;
+}
+
+.coli2 {
+    flex-basis: 50%;
+
+    height: 100%;
+}
+
+.coli1 p {
+
+    z-index: 999 !important;
+    line-height: 70px;
+    font-size: 14px;
+    font-weight: 800;
+    font-family: 'Playfair Display', serif;
+    color: #fff;
+
+
+}
+
+
+
+.coli2 ul {
+
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.coli2 ul li a i {
+    margin-top: 19px;
+    margin-right: 10px;
+    font-size: 16px;
+    color: #5a0c0c;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ffc327;
+    line-height: 30px;
+    transition: all linear .6s;
+    -webkit-transition: all linear .6s;
+    -moz-transition: all linear .6s;
+    -o-transition: all linear .6s;
+    -ms-transition: all linear .6s;
+}
+
+.coli2 ul li a i:hover {
+    background: #ffc327;
+    color: #fff;
+
+}
+
+
+/*====================  footer  css end  ==================== */
+
+
+/* ===============
+  loader css start
+  ===============*/
+
+.loader {
+
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    z-index: 99999999999;
+}
+
+.load {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: scale(-50%, -50%);
+
+    border: 10px solid;
+    /* Light grey */
+    border-right-color: transparent;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+
+    animation: spin 2s linear infinite;
+}
+
+
+
+
+@keyframes spin {
+
+    from {
+        transform: rotate(0deg);
+
+    }
+
+    0% {
+        color: #4d052f;
+
+    }
+
+    25% {
+        color: #464709;
+    }
+
+    50% {
+        color: #031a20e0;
+    }
+
+    100% {
+        color: #a428af3f;
+
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+
+
+
+}
+
+/* ===============
+loader css end
+*/
+
+/*================== menu fix start
+===========================*/
+
+
+.menu_fix {
+    position: sticky;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 70px;
+    z-index: 99999;
+
+}
+
+.content {
+    scroll-behavior: smooth;
+
+}
+
+.menu_fix::after {
+    position: absolute;
+    content: '';
+    background: #ffc327;
+
+    width: 279px;
+    height: 70px !important;
+    left: 0;
+    top: 0;
+    z-index: 99 !important;
+
+}
+
+
+.btop {
+
+
+    position: fixed;
+    right: 20px;
+    bottom: 30px;
+    height: 40px;
+    width: 40px;
+    background: #ffc327;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    z-index: 99999 !important;
+    cursor: pointer;
+}
+
+
+.btop i {
+    line-height: 40px;
+}
